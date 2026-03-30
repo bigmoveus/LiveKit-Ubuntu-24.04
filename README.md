@@ -14,7 +14,7 @@ Designed and tested for environments where WebRTC traffic is filtered or restric
 │                    Single Ubuntu 24.04 Server               │
 │                                                             │
 │   IP1 (194.x.x.x)              IP2 (45.x.x.x)               │
-│   call.example.com             call-turn.example.com        │
+│   livekit.example.com          livekit-turn.example.com     │
 │                                                             │
 │   ┌─────────────┐              ┌─────────────────────────┐  │
 │   │    Nginx    │              │        Coturn           │  │
@@ -138,8 +138,8 @@ The script will interactively ask for:
 |---|---|
 | IP1 (LiveKit) | `194.62.55.250` |
 | IP2 (TURN) | `45.94.4.203` |
-| LiveKit domain | `call.example.com` |
-| TURN domain | `call-turn.example.com` |
+| LiveKit domain | `livekit.example.com` |
+| TURN domain | `livekit-turn.example.com` |
 | SSL email | `admin@example.com` |
 | Webhook URLs | One per line, empty Enter to finish |
 
