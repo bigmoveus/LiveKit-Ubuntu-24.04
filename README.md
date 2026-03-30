@@ -13,7 +13,7 @@ Designed and tested for environments where WebRTC traffic is filtered or restric
 ┌─────────────────────────────────────────────────────────────┐
 │                    Single Ubuntu 24.04 Server               │
 │                                                             │
-│   IP1 (194.x.x.x)              IP2 (45.x.x.x)              │
+│   IP1 (194.x.x.x)              IP2 (45.x.x.x)               │
 │   call.example.com             call-turn.example.com        │
 │                                                             │
 │   ┌─────────────┐              ┌─────────────────────────┐  │
@@ -27,7 +27,7 @@ Designed and tested for environments where WebRTC traffic is filtered or restric
 │   │  :7880 int  │              │    LiveKit Egress       │  │
 │   │  :7881 RTC  │              │    (Docker container)   │  │
 │   └──────┬──────┘              └─────────────────────────┘  │
-│          │                                                   │
+│          │                                                  │
 │   ┌──────▼──────┐                                           │
 │   │    Redis    │                                           │
 │   │  :6379 int  │                                           │
