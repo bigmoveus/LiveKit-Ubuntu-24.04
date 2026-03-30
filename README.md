@@ -136,8 +136,8 @@ The script will interactively ask for:
 
 | Input | Example |
 |---|---|
-| IP1 (LiveKit) | `194.62.55.250` |
-| IP2 (TURN) | `45.94.4.203` |
+| IP1 (LiveKit) | `194.xxx.xxx.xxx` |
+| IP2 (TURN) | `45.xxx.xxx.xxx` |
 | LiveKit domain | `livekit.example.com` |
 | TURN domain | `livekit-turn.example.com` |
 | SSL email | `admin@example.com` |
